@@ -13,7 +13,7 @@ loop.geometry("800x500")
 bgcol='#1B2631'
 textcol='#FDFEFE'
 #window title
-loop.title(str("File Encoder"))
+loop.title(str("Files Encoder"))
 #sizable
 loop.resizable(False,False)
 #background color
@@ -263,7 +263,7 @@ fr1=Frame(width=1300,height=51,bg="#17202A").place(x=0,y=0)
 #black frame
 dframe = Frame(width=10,height=51,bg="#080B0F").place(x=0,y=0)
 #frame Title
-Label(fr1,text="File Encoder",bg='#17202A',fg='white',font=('Georgia',25)).place(x=10,y=3)
+Label(fr1,text="Files Encoder",bg='#17202A',fg='white',font=('Georgia',25)).place(x=10,y=3)
 #frame photo
 photo1 = PhotoImage(file="build\\photo.png").subsample(11,11)
 Label(fr1, image=photo1,bg='#17202A').place(x=205, y=0)
